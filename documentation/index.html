@@ -1,0 +1,1268 @@
+﻿<!doctype html>
+<html class="no-js " lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<meta name="description" content="Responsive Bootstrap 4 and web Application ui kit.">
+<title>:: Oreo Bootstrap4 Admin ::</title>
+<link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon-->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="../public/assets/scss/icon/_materialicons.scss">
+<!-- Custom Css -->
+<style>
+    #features li,
+    #documenter_cover li,
+    #template li{ padding: 5px 0;}
+    .sidebar .menu .list a{padding: 10px !important;}
+    span .material-icons{font-size: 20px; vertical-align: middle;}
+</style>
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/color_skins.css">
+</head>
+<body class="theme-cyan">
+<!-- Page Loader -->
+<div class="page-loader-wrapper">
+    <div class="loader">
+        <div class="m-t-30"><img class="zmdi-hc-spin" src="assets/images/logo.svg" width="48" height="48" alt="Oreo"></div>
+        <p>Please wait...</p>        
+    </div>
+</div>
+<!-- Overlay For Sidebars -->
+<div class="overlay"></div>
+<!-- Top Bar -->
+<nav class="navbar p-l-5 p-r-5">
+    <ul class="nav navbar-nav navbar-left">
+        <li>
+            <div class="navbar-header">
+                <a href="javascript:void(0);" class="bars"></a>
+                <a class="navbar-brand" href="javascript:void(0);"><img src="assets/images/logo.svg" width="30" alt="Oreo"><span class="m-l-10">Oreo</span></a>
+            </div>
+        </li>
+        <li><a href="javascript:void(0);" class="ls-toggle-btn" data-close="true"><i class="zmdi zmdi-swap"></i></a></li>
+        <li class="hidden-md-down"><a href="javascript:void(0);" title="Events"><i class="zmdi zmdi-calendar"></i></a></li>
+        <li class="hidden-md-down"><a href="javascript:void(0);" title="Inbox"><i class="zmdi zmdi-email"></i></a></li>
+        <li><a href="javascript:void(0);" title="Contact List"><i class="zmdi zmdi-account-box-phone"></i></a></li>
+        <li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="zmdi zmdi-notifications"></i>
+            <div class="notify"><span class="heartbit"></span><span class="point"></span></div>
+            </a>
+            <ul class="dropdown-menu pullDown">
+                <li class="body">
+                    <ul class="menu list-unstyled">
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="media">
+                                    <img class="media-object" src="assets/images/xs/avatar2.jpg" alt="">
+                                    <div class="media-body">
+                                        <span class="name">Sophia <span class="time">30min ago</span></span>
+                                        <span class="message">There are many variations of passages</span>                                        
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="media">
+                                    <img class="media-object" src="assets/images/xs/avatar3.jpg" alt="">
+                                    <div class="media-body">
+                                        <span class="name">Sophia <span class="time">31min ago</span></span>
+                                        <span class="message">There are many variations of passages of Lorem Ipsum</span>                                        
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="media">
+                                    <img class="media-object" src="assets/images/xs/avatar4.jpg" alt="">
+                                    <div class="media-body">
+                                        <span class="name">Isabella <span class="time">35min ago</span></span>
+                                        <span class="message">There are many variations of passages</span>                                        
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="media">
+                                    <img class="media-object" src="assets/images/xs/avatar5.jpg" alt="">
+                                    <div class="media-body">
+                                        <span class="name">Alexander <span class="time">35min ago</span></span>
+                                        <span class="message">Contrary to popular belief, Lorem Ipsum random</span>                                        
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="media">
+                                    <img class="media-object" src="assets/images/xs/avatar6.jpg" alt="">
+                                    <div class="media-body">
+                                        <span class="name">Grayson <span class="time">1hr ago</span></span>
+                                        <span class="message">There are many variations of passages</span>                                        
+                                    </div>
+                                </div>
+                            </a>
+                        </li>                        
+                    </ul>
+                </li>
+                <li class="footer"> <a href="javascript:void(0);">View All</a> </li>
+            </ul>
+        </li>
+        <li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="zmdi zmdi-flag"></i>
+            <div class="notify">
+                <span class="heartbit"></span>
+                <span class="point"></span>
+            </div>
+            </a>
+            <ul class="dropdown-menu pullDown">
+                <li class="header">Project</li>
+                <li class="body">
+                    <ul class="menu tasks list-unstyled">
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="progress-container progress-primary">
+                                    <span class="progress-badge">Neurology</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" style="width: 86%;">
+                                            <span class="progress-value">86%</span>
+                                        </div>
+                                    </div>                        
+                                    <ul class="list-unstyled team-info">
+                                        <li class="m-r-15"><small class="text-muted">Team</small></li>
+                                        <li>
+                                            <img src="assets/images/xs/avatar2.jpg" alt="Avatar">
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/xs/avatar3.jpg" alt="Avatar">
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/xs/avatar4.jpg" alt="Avatar">
+                                        </li>                            
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="progress-container progress-info">
+                                    <span class="progress-badge">Gynecology</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%;">
+                                            <span class="progress-value">45%</span>
+                                        </div>
+                                    </div>
+                                    <ul class="list-unstyled team-info">
+                                        <li class="m-r-15"><small class="text-muted">Team</small></li>
+                                        <li>
+                                            <img src="assets/images/xs/avatar10.jpg" alt="Avatar">
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/xs/avatar9.jpg" alt="Avatar">
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/xs/avatar8.jpg" alt="Avatar">
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/xs/avatar7.jpg" alt="Avatar">
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/xs/avatar6.jpg" alt="Avatar">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="progress-container progress-warning">
+                                    <span class="progress-badge">Cardio Monitoring</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="29" aria-valuemin="0" aria-valuemax="100" style="width: 29%;">
+                                            <span class="progress-value">29%</span>
+                                        </div>
+                                    </div>
+                                    <ul class="list-unstyled team-info">
+                                        <li class="m-r-15"><small class="text-muted">Team</small></li>
+                                        <li>
+                                            <img src="assets/images/xs/avatar5.jpg" alt="Avatar">
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/xs/avatar2.jpg" alt="Avatar">
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/xs/avatar7.jpg" alt="Avatar">
+                                        </li>                            
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>                    
+                    </ul>
+                </li>
+                <li class="footer"><a href="javascript:void(0);">View All</a></li>
+            </ul>
+        </li>
+        <li class="hidden-sm-down">
+            <div class="input-group">                
+                <input type="text" class="form-control" placeholder="Search...">
+                <span class="input-group-addon">
+                    <i class="zmdi zmdi-search"></i>
+                </span>
+            </div>
+        </li>        
+        <li class="float-right">
+            <a href="javascript:void(0);" class="mega-menu" data-close="true"><i class="zmdi zmdi-power"></i></a>
+            <a href="javascript:void(0);" class="js-right-sidebar" data-close="true"><i class="zmdi zmdi-settings zmdi-hc-spin"></i></a>
+        </li>
+    </ul>
+</nav>        
+<!-- Left Sidebar -->
+<aside id="leftsidebar" class="sidebar">
+    <ul class="nav nav-tabs">
+        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#dashboard"><i class="zmdi zmdi-home m-r-5"></i>Oreo</a></li>
+        <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#Documentation"><i class="zmdi zmdi-help m-r-5"></i>Doc</a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane stretchRight" id="dashboard">
+            <div class="menu">
+                <ul class="list">
+                    <li>
+                        <div class="user-info">
+                            <div class="image"><a href="../html/profile.html"><img src="assets/images/profile_av.jpg" alt="User"></a></div>
+                            <div class="detail">
+                                <h4>Dr. Charlotte</h4>
+                                <small>Neurologist</small>                        
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header">MAIN</li>
+                    <li class="active open"><a href="../html/index.html"><i class="zmdi zmdi-home"></i><span>Dashboard</span></a></li>            
+                    <li><a href="../html/book-appointment.html"><i class="zmdi zmdi-calendar-check"></i><span>Appointment</span> </a></li>
+                    <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-account-add"></i><span>Doctors</span> </a>
+                        <ul class="ml-menu">
+                            <li><a href="../html/doctors.html">All Doctors</a></li>
+                            <li><a href="../html/add-doctor.html">Add Doctor</a></li>                       
+                            <li><a href="../html/profile.html">Doctor Profile</a></li>
+                            <li><a href="../html/events.html">Doctor Schedule</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-account-o"></i><span>Patients</span> </a>
+                        <ul class="ml-menu">
+                            <li><a href="../html/patients.html">All Patients</a></li>
+                            <li><a href="../html/add-patient.html">Add Patient</a></li>                       
+                            <li><a href="../html/patient-profile.html">Patient Profile</a></li>
+                            <li><a href="../html/patient-invoice.html">Invoice</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-balance-wallet"></i><span>Payments</span> </a>
+                        <ul class="ml-menu">
+                            <li><a href="../html/payments.html">Payments</a></li>
+                            <li><a href="../html/add-payments.html">Add Payment</a></li>
+                            <li><a href="../html/invoice.html">Invoice</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-label-alt"></i><span>Departments</span> </a>
+                        <ul class="ml-menu">
+                            <li><a href="../html/add-departments.html">Add</a></li>
+                            <li><a href="../html/all-Departments.html">All Departments</a></li>
+                            <li><a href="javascript:void(0);">Cardiology</a></li>
+                            <li><a href="javascript:void(0);">Pulmonology</a></li>
+                            <li><a href="javascript:void(0);">Gynecology</a></li>
+                            <li><a href="javascript:void(0);">Neurology</a></li>
+                            <li><a href="javascript:void(0);">Urology</a></li>
+                            <li><a href="javascript:void(0);">Gastrology</a></li>
+                            <li><a href="javascript:void(0);">Pediatrician</a></li>
+                            <li><a href="javascript:void(0);">Laboratory</a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-lock"></i><span>Authentication</span> </a>
+                        <ul class="ml-menu">
+                            <li><a href="../html/sign-in.html">Sign In</a> </li>
+                            <li><a href="../html/sign-up.html">Sign Up</a> </li>
+                            <li><a href="../html/forgot-password.html">Forgot Password</a> </li>
+                            <li><a href="../html/404.html">Page 404</a> </li>
+                            <li><a href="../html/500.html">Page 500</a> </li>
+                            <li><a href="../html/page-offline.html">Page Offline</a> </li>
+                            <li><a href="../html/locked.html">Locked Screen</a> </li>
+                        </ul>
+                    </li>
+                    <li class="header">EXTRA COMPONENTS</li>
+                    <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-blogger"></i><span>Blog</span></a>
+                        <ul class="ml-menu">
+                            <li><a href="../html/blog-dashboard.html">Blog Dashboard</a></li>
+                            <li><a href="../html/blog-post.html">New Post</a></li>
+                            <li><a href="../html/blog-list.html">Blog List</a></li>
+                            <li><a href="../html/blog-grid.html">Blog Grid</a></li>
+                            <li><a href="../html/blog-details.html">Blog Single</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-folder"></i><span>File Manager</span> </a>
+                        <ul class="ml-menu">
+                            <li><a href="../html/file-dashboard.html">All File</a></li>
+                            <li><a href="../html/file-documents.html" >Documents</a></li>
+                            <li><a href="../html/file-media.html">Media</a></li>
+                            <li><a href="../html/file-images.html">Images</a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-apps"></i><span>App</span> </a>
+                        <ul class="ml-menu">
+                            <li><a href="../html/mail-inbox.html">Inbox</a></li>
+                            <li><a href="../html/chat.html">Chat</a></li>                                                        
+                            <li><a href="../html/contact.html">Contact list</a></li>                            
+                        </ul>
+                    </li>                    
+                    <li> <a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-delicious"></i><span>Widgets</span> </a>
+                        <ul class="ml-menu">
+                            <li><a href="../html/widgets-app.html">Apps Widgetse</a></li>
+                            <li><a href="../html/widgets-data.html">Data Widgetse</a></li>
+                        </ul>
+                    </li>                    
+                    <li> <a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-copy"></i><span>Sample Pages</span> </a>
+                        <ul class="ml-menu">
+                            <li><a href="../html/blank.html">Blank Page</a> </li>
+                            <li><a href="../html/dashboard-rtl.html">RTL Support</a> </li>
+                            <li><a href="../html/index2.html">Horizontal Menu</a> </li>
+                            <li><a href="../html/image-gallery.html">Image Gallery</a> </li>
+                            <li><a href="../html/profile.html">Profile</a></li>
+                            <li><a href="../html/timeline.html">Timeline</a></li>                            
+                            <li><a href="../html/invoice.html">Invoices</a></li>
+                            <li><a href="../html/search-results.html">Search Results</a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-swap-alt"></i><span>User Interface (UI)</span> </a>
+                        <ul class="ml-menu">
+                            <li><a href="../html/ui_kit.html">UI KIT</a></li>
+                            <li><a href="../html/alerts.html">Alerts</a></li>
+                            <li><a href="../html/collapse.html">Collapse</a></li>
+                            <li><a href="../html/colors.html">Colors</a></li>
+                            <li><a href="../html/dialogs.html">Dialogs</a></li>
+                            <li><a href="../html/icons.html">Icons</a></li>
+                            <li><a href="../html/list-group.html">List Group</a></li>
+                            <li><a href="../html/media-object.html">Media Object</a></li>
+                            <li><a href="../html/modals.html">Modals</a></li>
+                            <li><a href="../html/notifications.html">Notifications</a></li>                    
+                            <li><a href="../html/progressbars.html">Progress Bars</a></li>
+                            <li><a href="../html/range-sliders.html">Range Sliders</a></li>
+                            <li><a href="../html/sortable-nestable.html">Sortable & Nestable</a></li>
+                            <li><a href="../html/tabs.html">Tabs</a></li>
+                            <li><a href="../html/waves.html">Waves</a></li>
+                        </ul>
+                    </li>
+                    <li class="header">Extra</li>
+                    <li>
+                        <div class="progress-container progress-primary m-t-10">
+                            <span class="progress-badge">Traffic this Month</span>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 67%;">
+                                    <span class="progress-value">67%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-container progress-info">
+                            <span class="progress-badge">Server Load</span>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" style="width: 86%;">
+                                    <span class="progress-value">86%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="tab-pane stretchLeft active" id="Documentation">
+            <div class="menu">
+                <ul class="list">
+                    <li>
+                        <div class="user-info">
+                            <div class="image"><a href="../html/profile.html"><img src="assets/images/profile_av.jpg" alt="User"></a></div>
+                            <div class="detail">
+                                <h4>Michael</h4>
+                                <small>UI UX Designer</small>                        
+                            </div>
+                            <a title="facebook" href="#"><i class="zmdi zmdi-facebook"></i></a>
+                            <a title="twitter" href="#"><i class="zmdi zmdi-twitter"></i></a>
+                            <a title="instagram" href="#"><i class="zmdi zmdi-instagram"></i></a>                            
+                        </div>
+                    </li>
+                    <li class="header">MAIN NAVIGATION</li>
+                    <li><a href="#documenter_cover"><i class="zmdi zmdi-arrow-right"></i><span>Start </span></a></li>
+                    <li><a href="#overview"><i class="zmdi zmdi-arrow-right"></i><span>Overview</span></a></li>
+                    <li><a href="#server"><i class="zmdi zmdi-arrow-right"></i><span>Server Requirements</span></a></li>
+                    <li><a href="#installation"><i class="zmdi zmdi-arrow-right"></i><span>Installation</span></a></li>
+                    <li><a href="#features"><i class="zmdi zmdi-arrow-right"></i><span>Features</span></a></li>
+                    <li><a href="#template"><i class="zmdi zmdi-arrow-right"></i><span>Template</span></a></li>
+                    <li><a href="#main_menu"><i class="zmdi zmdi-arrow-right"></i><span>Main Menu</span></a></li>
+                    <li><a href="#grunt_file"><i class="zmdi zmdi-arrow-right"></i><span>Grunt File</span></a></li>
+                    <li><a href="#main_content"><i class="zmdi zmdi-arrow-right"></i><span>Main Content</span></a></li>            
+                    <li><a href="#folder_structure"><i class="zmdi zmdi-arrow-right"></i><span>Folder Structure</span></a></li>
+                    <li><a href="#css"><i class="zmdi zmdi-arrow-right"></i><span>CSS</span></a></li>
+                    <li><a href="#javascript"><i class="zmdi zmdi-arrow-right"></i><span>Javascript</span></a></li>
+                    <li><a href="#fonts"><i class="zmdi zmdi-arrow-right"></i><span>Fonts</span></a></li>
+                    <li><a href="#thank_you"><i class="zmdi zmdi-arrow-right"></i><span>THANK YOU!</span></a></li>            
+                </ul>        
+            </div>
+        </div>
+    </div>    
+</aside>
+<!-- Right Sidebar -->
+<aside id="rightsidebar" class="right-sidebar">
+    <ul class="nav nav-tabs">
+        <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#setting"><i class="zmdi zmdi-settings zmdi-hc-spin"></i></a></li>
+        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#chat"><i class="zmdi zmdi-comments"></i></a></li>
+        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#activity">Activity</a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane slideRight active" id="setting">
+            <div class="slim_scroll">
+                <div class="card">
+                    <h6>General Settings</h6>
+                    <ul class="setting-list list-unstyled">
+                        <li>
+                            <div class="checkbox">
+                                <input id="checkbox1" type="checkbox">
+                                <label for="checkbox1">Report Panel Usage</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="checkbox">
+                                <input id="checkbox2" type="checkbox" checked="">
+                                <label for="checkbox2">Email Redirect</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="checkbox">
+                                <input id="checkbox3" type="checkbox" checked="">
+                                <label for="checkbox3">Notifications</label>
+                            </div>                        
+                        </li>
+                        <li>
+                            <div class="checkbox">
+                                <input id="checkbox4" type="checkbox" checked="">
+                                <label for="checkbox4">Auto Updates</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>                
+                <div class="card">
+                    <h6>Skins</h6>
+                    <ul class="choose-skin list-unstyled">
+                        <li data-theme="purple">
+                            <div class="purple"></div>
+                        </li>                   
+                        <li data-theme="blue">
+                            <div class="blue"></div>
+                        </li>
+                        <li data-theme="cyan" class="active">
+                            <div class="cyan"></div>                    
+                        </li>
+                        <li data-theme="green">
+                            <div class="green"></div>
+                        </li>
+                        <li data-theme="orange">
+                            <div class="orange"></div>
+                        </li>
+                        <li data-theme="blush">
+                            <div class="blush"></div>                    
+                        </li>
+                    </ul>                    
+                </div>
+                <div class="card">
+                    <h6>Account Settings</h6>
+                    <ul class="setting-list list-unstyled">
+                        <li>
+                            <div class="checkbox">
+                                <input id="checkbox5" type="checkbox" checked="">
+                                <label for="checkbox5">Offline</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="checkbox">
+                                <input id="checkbox6" type="checkbox" checked="">
+                                <label for="checkbox6">Location Permission</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card theme-light-dark">
+                    <h6>Left Menu</h6>
+                    <button class="t-light btn btn-default btn-simple btn-round btn-block">Light</button>
+                    <button class="t-dark btn btn-default btn-round btn-block">Dark</button>
+					<button class="m_img_btn btn btn-primary btn-round btn-block">Sidebar Image</button>                    
+                </div>                
+                <div class="card">
+                    <h6>Information Summary</h6>
+                    <div class="row m-b-20">
+                        <div class="col-7">                            
+                            <small class="displayblock">MEMORY USAGE</small>
+                            <h5 class="m-b-0 h6">512</h5>
+                        </div>
+                        <div class="col-5">
+                            <div class="sparkline" data-type="bar" data-width="97%" data-height="25px" data-bar-Width="5" data-bar-Spacing="3" data-bar-Color="#00ced1">8,7,9,5,6,4,6,8</div>
+                        </div>
+                    </div>
+                    <div class="row m-b-20">
+                        <div class="col-7">                            
+                            <small class="displayblock">CPU USAGE</small>
+                            <h5 class="m-b-0 h6">90%</h5>
+                        </div>
+                        <div class="col-5">
+                            <div class="sparkline" data-type="bar" data-width="97%" data-height="25px" data-bar-Width="5" data-bar-Spacing="3" data-bar-Color="#F15F79">6,5,8,2,6,4,6,4</div>
+                        </div>
+                    </div>
+                    <div class="row m-b-20">
+                        <div class="col-7">                            
+                            <small class="displayblock">DAILY TRAFFIC</small>
+                            <h5 class="m-b-0 h6">25 142</h5>
+                        </div>
+                        <div class="col-5">
+                            <div class="sparkline" data-type="bar" data-width="97%" data-height="25px" data-bar-Width="5" data-bar-Spacing="3" data-bar-Color="#78b83e">7,5,8,7,4,2,6,5</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-7">                            
+                            <small class="displayblock">DISK USAGE</small>
+                            <h5 class="m-b-0 h6">60.10%</h5>
+                        </div>
+                        <div class="col-5">
+                            <div class="sparkline" data-type="bar" data-width="97%" data-height="25px" data-bar-Width="5" data-bar-Spacing="3" data-bar-Color="#457fca">7,5,2,5,6,7,6,4</div>
+                        </div>
+                    </div>
+                </div>
+            </div>                
+        </div>       
+        <div class="tab-pane right_chat stretchLeft" id="chat">
+            <div class="slim_scroll">
+                <div class="card">
+                    <div class="search">                        
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search...">
+                            <span class="input-group-addon">
+                                <i class="zmdi zmdi-search"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h6>Recent</h6>
+                    <ul class="list-unstyled">
+                        <li class="online">
+                            <a href="javascript:void(0);">
+                                <div class="media">
+                                    <img class="media-object " src="assets/images/xs/avatar4.jpg" alt="">
+                                    <div class="media-body">
+                                        <span class="name">Sophia</span>
+                                        <span class="message">There are many variations of passages of Lorem Ipsum available</span>
+                                        <span class="badge badge-outline status"></span>
+                                    </div>
+                                </div>
+                            </a>                            
+                        </li>
+                        <li class="online">
+                            <a href="javascript:void(0);">
+                                <div class="media">
+                                    <img class="media-object " src="assets/images/xs/avatar5.jpg" alt="">
+                                    <div class="media-body">
+                                        <span class="name">Grayson</span>
+                                        <span class="message">All the Lorem Ipsum generators on the</span>
+                                        <span class="badge badge-outline status"></span>
+                                    </div>
+                                </div>
+                            </a>                            
+                        </li>
+                        <li class="offline">
+                            <a href="javascript:void(0);">
+                                <div class="media">
+                                    <img class="media-object " src="assets/images/xs/avatar2.jpg" alt="">
+                                    <div class="media-body">
+                                        <span class="name">Isabella</span>
+                                        <span class="message">Contrary to popular belief, Lorem Ipsum</span>
+                                        <span class="badge badge-outline status"></span>
+                                    </div>
+                                </div>
+                            </a>                            
+                        </li>
+                        <li class="me">
+                            <a href="javascript:void(0);">
+                                <div class="media">
+                                    <img class="media-object " src="assets/images/xs/avatar1.jpg" alt="">
+                                    <div class="media-body">
+                                        <span class="name">John</span>
+                                        <span class="message">It is a long established fact that a reader</span>
+                                        <span class="badge badge-outline status"></span>
+                                    </div>
+                                </div>
+                            </a>                            
+                        </li>
+                        <li class="online">
+                            <a href="javascript:void(0);">
+                                <div class="media">
+                                    <img class="media-object " src="assets/images/xs/avatar3.jpg" alt="">
+                                    <div class="media-body">
+                                        <span class="name">Alexander</span>
+                                        <span class="message">Richard McClintock, a Latin professor</span>
+                                        <span class="badge badge-outline status"></span>
+                                    </div>
+                                </div>
+                            </a>                            
+                        </li>                        
+                    </ul>
+                </div>
+                <div class="card">
+                    <h6>Contacts</h6>
+                    <ul class="list-unstyled">
+                        <li class="offline inlineblock">
+                            <a href="javascript:void(0);">
+                                <div class="media">
+                                    <img class="media-object " src="assets/images/xs/avatar10.jpg" alt="">
+                                    <div class="media-body">
+                                        <span class="badge badge-outline status"></span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="offline inlineblock">
+                            <a href="javascript:void(0);">
+                                <div class="media">
+                                    <img class="media-object " src="assets/images/xs/avatar6.jpg" alt="">
+                                    <div class="media-body">
+                                        <span class="badge badge-outline status"></span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="offline inlineblock">
+                            <a href="javascript:void(0);">
+                                <div class="media">
+                                    <img class="media-object " src="assets/images/xs/avatar7.jpg" alt="">
+                                    <div class="media-body">
+                                        <span class="badge badge-outline status"></span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="offline inlineblock">
+                            <a href="javascript:void(0);">
+                                <div class="media">
+                                    <img class="media-object " src="assets/images/xs/avatar8.jpg" alt="">
+                                    <div class="media-body">
+                                        <span class="badge badge-outline status"></span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="offline inlineblock">
+                            <a href="javascript:void(0);">
+                                <div class="media">
+                                    <img class="media-object " src="assets/images/xs/avatar9.jpg" alt="">
+                                    <div class="media-body">
+                                        <span class="badge badge-outline status"></span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="online inlineblock">
+                            <a href="javascript:void(0);">
+                                <div class="media">
+                                    <img class="media-object " src="assets/images/xs/avatar5.jpg" alt="">
+                                    <div class="media-body">
+                                        <span class="badge badge-outline status"></span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="offline inlineblock">
+                            <a href="javascript:void(0);">
+                                <div class="media">
+                                    <img class="media-object " src="assets/images/xs/avatar4.jpg" alt="">
+                                    <div class="media-body">
+                                        <span class="badge badge-outline status"></span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="offline inlineblock">
+                            <a href="javascript:void(0);">
+                                <div class="media">
+                                    <img class="media-object " src="assets/images/xs/avatar3.jpg" alt="">
+                                    <div class="media-body">
+                                        <span class="badge badge-outline status"></span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="online inlineblock">
+                            <a href="javascript:void(0);">
+                                <div class="media">
+                                    <img class="media-object " src="assets/images/xs/avatar2.jpg" alt="">
+                                    <div class="media-body">
+                                        <span class="badge badge-outline status"></span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="offline inlineblock">
+                            <a href="javascript:void(0);">
+                                <div class="media">
+                                    <img class="media-object " src="assets/images/xs/avatar1.jpg" alt="">
+                                    <div class="media-body">
+                                        <span class="badge badge-outline status"></span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane slideLeft" id="activity">
+            <div class="slim_scroll">
+                <div class="card user_activity">
+                    <h6>Recent Activity</h6>
+                    <div class="streamline b-accent">
+                        <div class="sl-item">
+                            <img class="user rounded-circle" src="assets/images/xs/avatar4.jpg" alt="">
+                            <div class="sl-content">
+                                <h5 class="m-b-0">Admin Birthday</h5>
+                                <small>Jan 21 <a href="javascript:void(0);" class="text-info">Sophia</a>.</small>
+                            </div>
+                        </div>
+                        <div class="sl-item">
+                            <img class="user rounded-circle" src="assets/images/xs/avatar5.jpg" alt="">
+                            <div class="sl-content">
+                                <h5 class="m-b-0">Add New Contact</h5>
+                                <small>30min ago <a href="javascript:void(0);">Alexander</a>.</small>
+                                <small><strong>P:</strong> +264-625-2323</small>
+                                <small><strong>E:</strong> maryamamiri@gmail.com</small>
+                            </div>
+                        </div>
+                        <div class="sl-item">
+                            <img class="user rounded-circle" src="assets/images/xs/avatar6.jpg" alt="">
+                            <div class="sl-content">
+                                <h5 class="m-b-0">Code Change</h5>
+                                <small>Today <a href="javascript:void(0);">Grayson</a>.</small>
+                                <small>The standard chunk of Lorem Ipsum used since the 1500s is reproduced</small>
+                            </div>
+                        </div>
+                        <div class="sl-item">
+                            <img class="user rounded-circle" src="assets/images/xs/avatar7.jpg" alt="">
+                            <div class="sl-content">
+                                <h5 class="m-b-0">New Email</h5>
+                                <small>45min ago <a href="javascript:void(0);" class="text-info">Fidel Tonn</a>.</small>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="card">
+                    <h6>Recent Attachments</h6>
+                    <ul class="list-unstyled activity">
+                        <li>
+                            <a href="javascript:void(0)">
+                                <i class="zmdi zmdi-collection-pdf l-blush"></i>                    
+                                <div class="info">
+                                    <h4>info_258.pdf</h4>                    
+                                    <small>2MB</small>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <i class="zmdi zmdi-collection-text l-amber"></i>                    
+                                <div class="info">
+                                    <h4>newdoc_214.doc</h4>                    
+                                    <small>900KB</small>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <i class="zmdi zmdi-image l-parpl"></i>                    
+                                <div class="info">
+                                    <h4>MG_4145.jpg</h4>                    
+                                    <small>5.6MB</small>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <i class="zmdi zmdi-image l-parpl"></i>                    
+                                <div class="info">
+                                    <h4>MG_4100.jpg</h4>                    
+                                    <small>5MB</small>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <i class="zmdi zmdi-collection-text l-amber"></i>                    
+                                <div class="info">
+                                    <h4>Reports_end.doc</h4>                    
+                                    <small>780KB</small>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <i class="zmdi zmdi-videocam l-turquoise"></i>                    
+                                <div class="info">
+                                    <h4>movie2018.MKV</h4>                    
+                                    <small>750MB</small>
+                                </div>
+                            </a>
+                        </li>                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</aside>
+
+<!-- main content -->
+<section class="content home">
+	<div class="block-header">
+		<div class="row">
+			<div class="col-lg-7 col-md-6 col-sm-12">
+				<h2>Documentation
+				<small>Welcome to Oreo Laravel Application</small>
+				</h2>
+			</div>
+			<div class="col-lg-5 col-md-6 col-sm-12">
+				<ul class="breadcrumb float-md-right">
+					<li class="breadcrumb-item"><a href="../html/index.html"><i class="zmdi zmdi-home"></i> Oreo</a></li>
+					<li class="breadcrumb-item active">Documentation</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">		
+		<div class="row clearfix">
+			<div class="col-sm-12 ">
+				<div class="card" id="documenter_cover">
+					<div class="header">
+						<h2><strong>Start</strong> Oreo Laravel</h2>
+					</div>
+					<div class="body">
+						<h3>Oreo Hospital Laravel + Bootstrap4 Admin Dashboard</h3>
+                        <ul>
+                            <li>Created: 04-March-2019</li>
+                            <li>latest update: 04-March-2019</li>
+                            <li>email: <a href="mailto:info@thememakker.com">info@thememakker.com</a></li>
+                        </ul>
+                        <p>Thank you for purchasing our template. If you have any questions that are beyond the scope of this help file, please feel free to email at <a href="mailto:info@thememakker.com">info@thememakker.com</a></p>
+                        <p>If you really like our work, design, performance and support then <a href="https://themeforest.net/downloads"> please don't forgot to rate us</a> on Themeforest,<br>
+                            it really motivate us to provide something better.
+                            <span>
+                                <i class="material-icons">favorite</i>
+                                <i class="material-icons">favorite</i>
+                                <i class="material-icons">favorite</i>
+                                <i class="material-icons">favorite</i>
+                                <i class="material-icons">favorite</i>
+                            </span>
+                        </p>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<div class="row clearfix">
+			<div class="col-sm-12 ">
+				<div class="card" id="overview">
+					<div class="header">
+						<h2><strong>Brief</strong> Overview</h2>
+					</div>
+					<div class="body">
+						<p>Oreo Laravel Admin Template is a popular open source WebApp Laravel template for Laravel admin dashboards and admin panels. It’s responsive Admin template, which is based on Laravel + Bootstrap 4X framework. It utilizes all of the Bootstrap components integrated with Laravel layout standards and re-styles many commonly used plugins to create a consistent design that can be used as a Larvel backend applications.</p>                        
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 text-center">
+                                <i class="material-icons zmdi-hc-2x">flag</i>
+                                <h6 class="m-t-10">Laravel 5.7</h6>
+                                <p class="text-muted">Laravel 5.7 is latest version of Laravel framework of PHP to develop web applications following the model–view–controller (MVC) architectural pattern and based on Symfony.</p>
+                            </div>
+                            <div class="col-lg-4 col-md-6 text-center">
+                                <i class="material-icons zmdi-hc-2x">format_bold</i>
+                                <h6 class="m-t-10">Bootstrap 4X</h6>
+                                <p class="text-muted">Bootstrap easily and efficiently scales your websites and applications with a single code base, from phones to tablets to desktops with CSS media queries.</p>
+                            </div>
+                            <div class="col-lg-4 col-md-6 text-center">
+                                <i class="material-icons zmdi-hc-2x">settings</i>
+                                <h6 class="m-t-10">Easily Customizable</h6>
+                                <p class="text-muted">The internet is society’s true equalizer. It gives voices to the masses, as people from across the world can now express their opinions and ideals. Not since the industrial revolution, has humanity experienced such a game-changing invention.</p>
+                            </div>
+                            <div class="col-lg-4 col-md-6 text-center">
+                                <i class="material-icons zmdi-hc-2x" style="transform: rotate(90deg);">polymer</i>
+                                <h6 class="m-t-10">HTML5/CSS3</h6>
+                                <p class="text-muted">HTML5 is a core technology markup language of the Internet used for structuring and presenting content for the World Wide Web.</p>
+                            </div>
+                            <div class="col-lg-4 col-md-6 text-center">
+                                <i class="material-icons zmdi-hc-2x">power_settings_new</i>
+                                <h6 class="m-t-10">Integrated plugins</h6>
+                                <p class="text-muted">You can enable one or more of the integrated Apache Cordova plugins to extend the functionality of your app. The integrated plugins are custom Apache Cordova plugins that the AppBuilder team modifies, configures and updates regularly.</p>                                
+                            </div>
+                            <div class="col-lg-4 col-md-6 text-center">
+                                <i class="material-icons zmdi-hc-2x">smartphone</i>
+                                <h6 class="m-t-10">Responsive layout</h6>
+                                <p class="text-muted">Let this collection of responsive designed websites across a variety of website types help get your creative and developer juices flowing. Each site features a screenshot across 4 device widths and you can see the media queries.</p>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+        </div>
+        <div class="row clearfix">
+			<div class="col-sm-12 ">
+				<div class="card" id="server">
+					<div class="header">
+						<h2><strong>Server </strong>Requirements</h2>
+					</div>
+					<div class="body">
+                        <p>Please make sure your server meets the following requirements.</p>
+                        <ul>
+                            <li>PHP >= 7.1.3</li>
+                            <li>OpenSSL PHP Extension</li>
+                            <li>PDO PHP Extension</li>
+                            <li>Mbstring PHP Extension</li>
+                            <li>Tokenizer PHP Extension</li>
+                            <li>XML PHP Extension</li>
+                            <li>Ctype PHP Extension</li>
+                            <li>JSON PHP Extension</li>
+                            <li>BCMath PHP Extension</li>
+                        </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="row clearfix">
+			<div class="col-sm-12 ">
+				<div class="card" id="installation">
+					<div class="header">
+						<h2><strong>Installation</strong></h2>
+					</div>
+					<div class="body">
+						<div class="mb-4">
+                            <h6>1. Download</h6>
+                            <p>Download the theme files from your account and place on your server.</p>
+                        </div>
+                        <div class="mb-4">
+                            <h6>2. Composer</h6>
+                            <p>Laravel project dependencies are managed through the PHP Composer tool. The first step is to install the depencencies by navigating into your project in terminal and type following command:
+                            <code>composer install</code></p>
+                        </div>
+                        <div class="mb-4">
+                            <h6>3. NPM/Yarn</h6>
+                            <p>For NPM, you have to run following command from the root of the project in terminal:
+                            <code>npm install</code></p>
+                        </div>
+                        <div class="mb-4">
+                            <h6>4. Change Environment Configuration Files</h6>
+                            <p>This package ships with a .env. file in the root of the project. Change/Update your desired variables in this file.</p>
+                        </div>
+                        <p>Reference: <a href="Reference: https://laravel.com/docs/5.7/installation">https://laravel.com/docs/5.7/installation</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row clearfix">
+			<div class="col-sm-12">
+				<div class="card" id="features">
+					<div class="header">
+						<h2><strong>Main</strong> Features</h2>
+					</div>
+					<div class="body">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <ul>
+                                    <li><strong><a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> 4x</strong></li>
+                                    <li>Latest <strong>jquery v3.2.1</strong></li>
+                                    <li>Fully Responsive pages</li>
+                                    <li><strong><a href="javascript:void(0);">RTL</a></strong> Support <span class="badge badge-default m-b-0">New</span></li>
+                                    <li><strong>6 Unique</strong> Color Scheme</li>
+                                    <li>Built in <strong><a href="http://sass-lang.com/" target="_blank">SASS</a></strong></li>	
+                                    <li>JS Bundling Ready (<strong>Bundle</strong>) <span class="badge badge-default m-b-0">New</span></li>
+                                    <li><strong>Material Kit added</strong> <span class="badge badge-default m-b-0">New</span></li>
+                                    <li><a href="javascript:void(0);">Invoice</a> <span class="badge badge-default m-b-0">New</span></li>
+                                    <li><a href="javascript:void(0);">File Manager</a> <span class="badge badge-default m-b-0">New</span></li>
+                                    <li><strong><a href="javascript:void(0);">Inbox</a></strong> Full App <span class="badge badge-default m-b-0">New</span></li>
+                                    <li><strong>Blog</strong> full section with <strong><a href="javascript:void(0);">Dashboard</a></strong> <span class="badge badge-default m-b-0">New</span></li>
+                                    <li>50+ Ready to used <strong>widgets</strong></li>
+                                    <li>User <strong><a href="javascript:void(0);">Profile</a></strong> Page <span class="badge badge-default m-b-0">New</span></li>
+                                    <li><strong>Chat App</strong> <span class="badge badge-default m-b-0">New</span></li>
+                                    <li><a href="javascript:void(0);">Contact list</a> <span class="badge badge-default m-b-0">New</span></li>
+                                    <li><a href="javascript:void(0);">Timeline</a> <span class="badge badge-default m-b-0">New</span></li>
+                                    <li><strong><a href="javascript:void(0);">Calendar</a></strong> integration</li>
+                                    <li><strong>Foo</strong> Tables <span class="badge badge-default m-b-0">New</span></li>
+                                    <li><strong>Jquery DataTables</strong></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <ul>
+                                    <li>Editable Tables</li>
+                                    <li>Responsive Tables</li>
+                                    <li>File Upload</li>
+                                    <li><a href="javascript:void(0);">Form Wizard</a></li>
+                                    <li>Form <strong><a href="javascript:void(0);">Validation</a></strong></li>
+                                    <li>Advanced Form Elements</li>
+                                    <li>Sortable & Nestable</li>
+                                    <li><strong><a href="javascript:void(0);">Sweet Alert</a></strong> Dialog</li>
+                                    <li><a href="javascript:void(0);">Image Gallery</a></li>
+                                    <li>3000+ Icons</li>
+                                    <li>Form Examples</li>
+                                    <li>Fully <strong>Responsive</strong> & Interactive</li>
+                                    <li>Elegant & Clean User Interface</li>
+                                    <li>Expanded and Collapsed Menu (Multi Menu Levels)</li>
+                                    <li>Messenger Notifications</li>
+                                    <li>Grid Based System</li>
+                                    <li><strong>login</strong>, lock screen, 404, 500 Error Pages</li>
+                                    <li>80+ Use Full Pages (No extra pages)</li>	
+                                    <li>Detailed Documentation</li>
+                                    <li>Works well in all latest browsers like Chrome, Firefox, Opera, Safari, IE11+</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="alert alert-success" role="alert">
+                            <p class="mb-0"><strong>Authentication:-</strong> login, lock screen, Sign Up, Forgot Password, 404, 500 Error, Page Offline Pages</p>
+                            <p class="mb-0"><strong>Note:-</strong> Works well in all latest browsers like Chrome, Firefox, Safari, Microsoft Edge, IE11+</p>
+                        </div>
+                        <div class="alert alert-danger" role="alert">
+                            <strong>Note:-</strong> jQuery plugin dependencies may relay on used platform and their versions.
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row clearfix">
+			<div class="col-sm-12 ">
+				<div class="card" id="template">
+					<div class="header">
+						<h2><strong>Main</strong> Template</h2>
+					</div>
+					<div class="body">
+						<p>The template consist of following components as show in image below:</p>
+						<ol>
+                            <li>User Profile avatar</li>
+                            <li>Main Usefull shortcuts links</li>
+                            <li>Main Search... and main Menu toggle</li>                            
+                            <li>toggle options like the messages, notifications, fullscreen, log out, and setting Right menu</li>
+                            <li>Add new in project btn</li>
+                            <li>New sortcut Chat app</li>
+                            <li>Main Menu</li>
+							<li>Content Body</li>
+						</ol>						
+						<p> <img alt="" src="doc/images/1.png" class="img-fluid"></p>						
+					</div>
+                </div>
+                <div class="card">
+                    <div class="header">
+                        <h2><strong>Main</strong> Structre</h2>
+                    </div>
+                    <div class="body">
+                        <p><img alt="" src="doc/images/html.png" class="img-fluid"></p>
+                    </div>
+                </div>
+			</div>
+        </div>        
+		<div class="row clearfix">
+			<div class="col-sm-12 ">
+				<div class="card" id="main_menu">
+					<div class="header">
+						<h2><strong>Main</strong> Menu</h2>
+					</div>
+					<div class="body">
+                        <img alt="" src="doc/images/2.png" class="img-fluid">
+                        <img alt="" src="doc/images/3.png" class="img-fluid m-t-20">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row clearfix">
+			<div class="col-sm-12 ">
+				<div class="card" id="grunt_file">
+					<div class="header">
+						<h2><strong>Grunt</strong> File <small>The JavaScript Task Runner.</small></h2>
+					</div>
+					<div class="body">
+                        <p><a href="https://gruntjs.com/" target="_blank"><strong>Grunt</strong></a> is a JavaScript task runner, a tool used to automatically perform frequent tasks such as minification, compilation, unit testing, and linting. It uses a command-line interface to run custom tasks defined in a file.</p>                        
+						<img alt="" src="doc/images/4.png" class="img-fluid">
+					</div>
+				</div>
+			</div>
+        </div>        
+		<div class="row clearfix">
+			<div class="col-sm-12 ">
+				<div class="card" id="main_content">
+					<div class="header">
+						<h2><strong>Main</strong> Content</h2>
+					</div>
+					<div class="body">
+                        <pre class="prettyprint lang-html linenums">
+@extends('layout.master')
+@section('title', 'Analytical')
+@section('parentPageTitle', 'Dashboard')
+
+
+@section('content')
+
+&lt;div class="row clearfix"&gt;
+    Add Your Content Here
+&lt;/div&gt;
+
+@stop
+                            </pre>
+					</div>
+				</div>
+			</div>
+		</div>		
+		<div class="row clearfix">
+			<div class="col-sm-12 ">
+				<div class="card" id="folder_structure">
+					<div class="header">
+						<h2><strong>Folder</strong> Structure</h2>
+					</div>
+					<div class="body">
+                        <p>We follow standard Laravel fodler structure and other created files are as following</p>
+                        <h6 class="m-0">Template assets files can be located at</h6>
+                        <pre>/public/assets/*</pre>
+
+                        <h6 class="m-0">Routes can be located at</h6>
+                        <pre>/routes/web.php</pre>
+
+                        <h6 class="m-0">Controller files can be located at</h6>
+                        <pre>/app/Http/Controllers/*</pre>
+
+                        <h6 class="m-0">View files can be located at</h6>
+                        <pre>/resources/views/*</pre>
+
+                        <h6 class="m-0">Layout files can be located at</h6>
+                        <pre>/resources/views/layout/master.blade.php<br>/resources/views/layout/authentication.blade.php</pre>
+
+                        <h6 class="m-0">Navigation Bar and Sidebar can be located at</h6>
+                        <pre>/resources/views/layout/navbar.blade.php<br>/resources/views/layout/sidebar.blade.php</pre>
+
+                        <h6 class="m-0">Default Error page can be locate at</h6>
+                        <pre>/resources/views/errors/404.blade.php</pre>
+                    </div>
+				</div>
+			</div>
+		</div>
+		<div class="row clearfix">
+			<div class="col-sm-12 ">
+				<div class="card" id="css">
+					<div class="header">
+						<h2><strong>SCSS</strong> Structure</h2>
+					</div>
+					<div class="body">
+                        <blockquote>
+                            <p class="blockquote blockquote-primary">                                
+                                Please note that all Detail main Web Site, you need to set it up on your project <a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html" class="col-blue" target="_blank">Click Here..</a>
+                                <br>
+                                <br>
+                                <small>
+                                    - <strong>SCSS</strong>
+                                </small>
+                            </p>
+                        </blockquote>
+						<p>main.css is the main CSS file located in assets/css/ folder of the package. Whole CSS file is well indexed with topic and its related code.</p>						
+						<img alt="" src="doc/images/9.png" class="img-fluid">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row clearfix">
+			<div class="col-sm-12 ">
+				<div class="card" id="javascript">
+					<div class="header">
+						<h2><strong>Javascript</strong></h2>
+					</div>
+					<div class="body">
+						<p>Oreo admin.js is the mail javascript file having all the js code. File is located in assets/js/ folder. This file code is also well formatted and section in different respective function names.</p>
+						<p class="m-b-30">Along with this chart library based js code and dashboard based js code are added in separate files for ease of use of user.</p>
+						<p> <img alt="" src="doc/images/8.png" class="img-fluid"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row clearfix">
+			<div class="col-sm-12 ">
+				<div class="card" id="fonts">
+					<div class="header">
+						<h2><strong>Credits</strong></h2>
+					</div>
+					<div class="body">
+						<ul>
+							<li><a href="http://getbootstrap.com/" rel="nofollow">Bootstrap</a></li>
+							<li><a href="https://jquery.com/" rel="nofollow">Jquery</a></li>
+							<li><a href="http://tristanedwards.me/sweetalert" rel="nofollow">Sweet-Alert</a></li>
+							<li><a href="http://dbushell.com/" rel="nofollow">Nestable</a></li>
+							<li><a href="http://arshaw.com/fullcalendar/" rel="nofollow">Full Calendar</a></li>
+							<li><a href="http://jqueryvalidation.org/" rel="nofollow">Form Validator</a></li>
+							<li><a href="http://jdewit.github.com/bootstrap-timepicker" rel="nofollow">Bootstrap-timepicker</a></li>
+							<li><a href="http://www.eyecon.ro/bootstrap-colorpicker" rel="nofollow">Bootstrap Colorpicker</a></li>
+							<li><a href="http://loudev.com/" rel="nofollow">Multi-select</a></li>
+							<li><a href="https://www.datatables.net" rel="nofollow">Datatables</a></li>
+							<li><a href="http://morrisjs.github.io/morris.js/" rel="nofollow">Morris</a></li>
+							<li><a href="http://chartjs.org/" rel="nofollow">Chartjs</a></li>
+							<li><a href="http://omnipotent.net/jquery.sparkline/" rel="nofollow">Sparkline</a> </li>
+							<li><a href="http://jqvmap.com" rel="nofollow">Vector Maps</a></li>
+							<li><a href="https://pexels.com/" rel="nofollow">Pexels (images)</a></li>
+							<li><a href="http://www.flotcharts.org/" rel="nofollow">Flot-charts</a></li>
+							<li><a href="https://github.com/silviomoreto/bootstrap-select" rel="nofollow"> Bootstrap select</a></li>
+							<li><a href="http://www.tinymce.com/" rel="nofollow">Wysiwig Editor</a></li>
+							<li><a href="https://github.com/wenzhixin/bootstrap-table-examples" rel="nofollow"> Bootstrap tables</a></li>
+							<li><a href="https://gionkunz.github.io/chartist-js/" rel="nofollow"> Chartist chart</a></li>
+						</ul>						
+					</div>
+				</div>
+			</div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-sm-12 ">
+                <div class="card" id="fonts">
+                    <div class="header">
+                        <h2>Font Used</h2>
+                    </div>
+                    <div class="body">
+                        <ul>
+                            <li><a href="https://fonts.google.com/specimen/Montserrat" rel="nofollow">Google fonts</a></li>
+                            <li><a href="http://zavoloklom.github.io/material-design-iconic-font/icons.html#directional" rel="nofollow">Material Design Iconic Font</a></li>
+                            <li>All Images are used: <a href="https://www.pexels.com/">Pexels.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<div class="row clearfix">
+			<div class="col-sm-12 ">
+				<div class="card" id="thank_you">
+					<div class="header">
+						<h2><strong>THANK YOU!</strong></h2>
+					</div>
+					<div class="body">
+						<p> Once again, thank you so much for purchasing this template. As I said at the beginning, I&#39;d be glad to help you if you have any questions relating to this template.</p>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+</section>
+
+<!-- Jquery Core Js --> 
+<script src="assets/bundles/libscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js ( jquery.v2.1.4.js ) --> 
+<script src="assets/bundles/vendorscripts.bundle.js"></script> <!-- slimscroll, waves Scripts Plugin Js --> 
+
+<script src="assets/bundles/mainscripts.bundle.js"></script><!-- Custom Js --> 
+<script src="doc/js/index.js"></script>
+
+<script>
+	$('#leftsidebar .list li').click(function(){
+		var $this = $(this);
+		if(!$this.is('active open'))
+		{
+			$('#leftsidebar .list li').removeClass('active open').removeData("top");
+			$this.addClass('active open').data("top", $this.offset().top);
+		}
+	});
+	document.createElement('section');
+	var duration = '500',
+	easing = 'swing';
+</script>
+
+</body>
+</html>
